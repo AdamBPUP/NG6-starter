@@ -1,0 +1,15 @@
+<navbar></navbar>
+<div>
+    <h1>{{ $ctrl.name }}</h1>
+</div>
+<form ng-submit="findAgents()">
+    <input type="text" placeholder="Search for an agent" class="form-control" ng-model="searchText" />
+    <input type="submit" value="Submit">
+</form>
+<div>
+    <ul>
+        <li ng-repeat="agentResult in agentResults">
+            <h2>{{ agentResult.Name }}</h2>
+        </li>
+    </ul>
+</div>
