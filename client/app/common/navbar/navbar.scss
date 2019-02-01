@@ -4,7 +4,7 @@
     .nav-links {
         height: 100%;
         width: 100%;
-        background: linear-gradient(#FDFDFD, #F0F0F0);
+        background: $buttonColor;
         .nav-link {
             height: 2rem;
             width: 10rem;
@@ -13,10 +13,6 @@
             color: $darkTextColor;
             font-size: 1rem;
             text-align: center;
-        }
-        .border {
-            border-right: 1px solid;
-            border-color: $darkBgColor;
         }
     }
 }
