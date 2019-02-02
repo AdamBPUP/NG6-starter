@@ -7,6 +7,7 @@ class AgentsController {
             $http.get(`https://api.ratemyagent.com.au/autosearch/agents?SearchTerm=${$scope.searchText}`)
                 .then(function(data) {
                     $scope.agentResults = data.data.Results;
+                    console.log($scope.agentResults);
                 });
         }
     }

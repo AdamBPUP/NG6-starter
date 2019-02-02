@@ -7,11 +7,8 @@
         </form>
     </div>
 
-    <div>
-        <ul>
-            <li ng-repeat="agentResult in agentResults">
-                <h2>{{ agentResult.Name }}</h2>
-            </li>
-        </ul>
+    <div class="agent-container" ng-repeat="agentResult in agentResults">
+        <agent agent-name={{agentResult.Name}} agency-name={{agentResult.SecondaryName}} image-url={{agentResult.ImageUrl}}></agent>
     </div>
+
 </div>
