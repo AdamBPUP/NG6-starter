@@ -5,10 +5,11 @@
         height: 100%;
         width: 100%;
         background: $buttonColor;
+        white-space: nowrap;
         .nav-link {
-            height: 2rem;
-            width: 10rem;
-            padding-top: 1rem;
+            height: 80%;
+            width: 15%;
+            padding-top: 1%;
             display: inline-block;
             color: $darkTextColor;
             font-size: 1rem;

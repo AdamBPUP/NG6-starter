@@ -1,5 +1,7 @@
 @import "common/common";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 .app {
     height: 100%;
     background-color: $bgColor;
+    font-family: 'Open Sans', sans-serif;
 }
